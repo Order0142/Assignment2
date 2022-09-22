@@ -14,14 +14,17 @@ height: 100vh;
 
 main {background-color: white;
 display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+flex-direction: column;
+justify-content:left;
+align-items: left;
 max-width: 50%;
 border-radius: 10px;
-font-size: 100%;}
+font-size: 100%;
+
+}
 
 body main img {
     width: 50%;
     border-radius: 10px;
+    
 }
