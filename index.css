@@ -22,7 +22,9 @@ border-radius: 10px;
 }
 
 body main img {
-    width: 50%;
+    display: block;
+    object-fit: cover;
+    max-width: 50%;
     border-radius: 10px;
     border-top-right-radius: 0px; 
     border-bottom-right-radius: 0px;  
@@ -30,9 +32,26 @@ body main img {
 
 div {
     margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin-right: 2.5em;
     font-size: 1.30em;}
-div h3 {padding-top: 5px;}
+
+div h3 {color: rgb(184, 179, 179);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.6em;
+    font-weight: 500;
+    padding-top: 5px;}
+
+div h2 {font-family: 'Fraunces', serif;
+    font-size: 1.8em;
+    font-weight: 700;}
+
+div p {font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(184, 179, 179);
+    }
 
 button {background-color: rgb(30, 110, 86);
     border: 0px;
