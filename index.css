@@ -14,17 +14,27 @@ height: 100vh;
 
 main {background-color: white;
 display: flex;
-flex-direction: column;
-justify-content:left;
-align-items: left;
-max-width: 50%;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+max-width: 40%;
 border-radius: 10px;
-font-size: 100%;
-
 }
 
 body main img {
     width: 50%;
     border-radius: 10px;
-    
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px;  
 }
+
+div {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: 1.30em;}
+div h3 {padding-top: 5px;}
+
+button {background-color: rgb(30, 110, 86);
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px;}
