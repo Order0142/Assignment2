@@ -38,22 +38,34 @@ div {
 div h3 {color: rgb(184, 179, 179);
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 4px;
-    font-size: 0.6em;
+    font-size: 0.7em;
     font-weight: 500;
-    padding-top: 5px;}
+    margin-bottom: 50px;
+    margin-top: 10px;}
 
 div h2 {font-family: 'Fraunces', serif;
     font-size: 1.8em;
-    font-weight: 700;}
+    font-weight: 700;
+    margin-top: 20;}
 
 div p {font-family: 'Montserrat', sans-serif;
     font-size: 0.7em;
     font-weight: 500;
     text-align: left;
     color: rgb(184, 179, 179);
+    margin-top: 15px;
     }
+h4 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.5em;
+    color: rgb(30, 110, 86);
+    margin-top: 10px;
+}
+span {font-size: small;
+color: rgb(184, 179, 179);}
 
 button {background-color: rgb(30, 110, 86);
     border: 0px;
     border-radius: 3px;
-    padding: 10px;}
+    padding: 10px 30px 10px 50px;
+    margin-top: 25px;}
