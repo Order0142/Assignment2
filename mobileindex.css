@@ -20,17 +20,16 @@ align-items: center;
 max-width: 20%;
 border-radius: 10px;
 font-size: 0.9em;
-height: 80vh;
-}
+height: 80vh;}
 
 img {
     display: block;
     max-width: 100%;
     width: 100%;
     border-radius: 10px;
-    border-top-right-radius: 0px; 
+    border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    height: 45vh; 
+    height: 50%;
 }
 
 div {
@@ -43,11 +42,11 @@ div h3 {color:darkgray;
     letter-spacing: 4px;
     font-size: 0.7em;
     font-weight: 500;
-    margin-bottom: 30px;
-    margin-top: px;}
+    margin-bottom: px;
+    margin-top: 10px;}
 
 h2 {font-family: 'Fraunces', serif;
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: 700;
     margin-top: 10px;}
 
@@ -70,9 +69,10 @@ span {font-size: small;
 
 button {background-color: rgb(30, 110, 86);
     border: 0px;
-    border-radius: 3px;
-    padding: 20px 30px 20px 50px;
-    margin-top: 25px;
+    border-radius: 10px;
+    padding: 18px 30px 18px 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     width: 100%;
     color: white;
     font-family: 'Montserrat', sans-serif;}
